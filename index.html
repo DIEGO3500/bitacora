@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" href="img/pixel cats.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+     /*Sdentro del style el comentario se pone asi*/
+     span{
+        background-color: #51e1fa;
+
+     }
+     .men{
+        position: sticky;
+        top: 0;
+     }
+     .a{
+        color: black;
+        text-decoration: none;
+        transition: background-color 0.4;
+     }
+     
+     ul{ 
+        list-style: none;
+        transition: background-color 0.4; 
+        width: 500px;
+     }
+     ul:hover{
+        background-color: red;
+     }
+            body{
+                background-color: #C5CCA3;
+            }
+                
+                h1{
+                    font-size: 30px;
+                    font-family: "Anton", serif;
+                }
+        .h {
+            width: 900px; 
+            height: 400px;
+            color:  rgb(76, 91, 130);
+        }
+        footer {
+            width: 248px;
+            height: 210px;
+            color: rgb(210, 109, 59);
+
+        }
+        article{
+            width: 240px;
+            height: 165px;
+            color: blueviolet;
+        }
+        #imagenes{
+            width: 770px;
+            height: 650px;
+            color: #17183B;
+        }
+        .videosymapas{
+            width: 962px;
+            height: 1010px;
+            color: rgb(138, 68, 68);
+        }
+        .txtcolor{
+            color: rgb(188, 185, 190);
+        }
+        .cuadrado{
+                width: 500px;
+                height: 900;
+                background: #51e1fa;
+                background: linear-gradient(57deg,#51e1fa 40%, #245f6f 60%);
+                background: -webkit-linear-gradient(57deg,#51e1fa 40%, #245f6f 60%);
+                background: -moz-linear-gradient(57deg,#51e1fa 40%, #245f6f 60%);
+                box-shadow: 25px 15px 5px 0px rgba(0,0,0,0.75);
+                -webkit-box-shadow: 25px 15px 5px 0px rgba(0,0,0,0.75);
+                -moz-box-shadow: 25px 15px 5px 0px rgba(0,0,0,0.75);
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                padding: 30px;
+                border:10px solid rgb(138, 68, 68);
+        }
+        
+        .dos {
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+            z-index: 1;
+        }
+        .tres {
+            color: rgb(193, 72, 209);
+        }
+        
+#slideshow {
+  text-align: center;
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin-bottom: 400px;
+}
+ 
+.slide-wrapper {
+  width: 2912px;
+  animation: slide 18s ease infinite;
+}
+ 
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+ 
+.slide:nth-child(1) { /*Elementos de una etiqueta que estan dentro*/
+  background-color: rgb(216, 41, 243);
+}
+ 
+.slide:nth-child(2) {
+  background-color: coral;
+}
+ 
+.slide:nth-child(3) {
+  background-color: greenyellow;
+}
+ 
+.slide:nth-child(4) {
+  background-color: brown;
+}
+ 
+@keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+    </style>
+<head>
+</head> <!--este de aqui es un titulo-->
+<body> <!--cuerpo del texto-->
+    <h1 class="men" style="color: rgb(219, 62, 62);">DIEGO GARCIA RUIZ(249381) BITACORA, introduccion al html y css</h1>
+    <section class="h">
+    <h1>primeramente como son los h que yo los utilizo como titulos como titulos o subtitulos</h1>
+    <h1>h1 (titulo)</h1>
+    <h2>h2(subtitulos)</h2>
+    <h3>h3(puntos a recalcar)</h3>
+    <h4>h4(sub puntos o palabras clave de interes)</h4>
+    <h5>h5 no lo utilizo </h5>
+    <h6>h6(menos)</h6>
+    </section>
+    <section>
+    <h1>texto</h1>
+    <p> (p) es un texto no relacionado al los h1 (osea no tiene variacion de tamaño por el momento) </p>
+    <h1 style="color: purple;">texto con color</h1>
+    <p>para poner el texto solo dentro del menor mayo que tienes que poner style="color (color que quieres cambiar)</p>
+    </section>
+<section>
+    <header class="listas">apartado de liga rapida
+        <ol>
+        <ul><a href="#imagenes">ir a la seccion de imagenes</a></ul>
+        <ul><a href=".videosymapas">ir a la seccion de mapas</a></ul>
+        <ul><a href=".listas"> ir a la seccion de listas</a></ul>
+        <ul><a href=".cuadrado">pading</a></ul>
+        <ul><a href=".selctores">selectores de pseudo clase</a></ul>
+        <ul><a href="ver2.html">2 link</a></ul>
+    </ol>
+    </header>
+</section>
+    <section>
+        <h1>link a paginas</h1>
+        <a href="https://www3.animeflv.net/">este es una redireccion a una pagina que se hace de la siguiente manera </a>
+        <p> (a href="") dentro de las comillas pones el link de la pagina</p></section>
+    <article>
+        <h1>DOM</h1>
+        <p>una representacion mas directa de como esta funcionando la</p>
+    </article>
+    <footer>
+        <h1>listas</h1>
+        <ol> 
+            <li>l1</li>
+            <li>l2</li>
+            <li>l3</li>
+            <li>l4</li>
+        </ol>
+        <p>listas para inicializarlas de cierto numero es solo poner dentro del (<) start:(numero)</p>
+    </footer>
+    <span class="videosymapas">
+    <h1>videos directos de youtube y mapas de google</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KDorKy-13ak?si=4MaOpzExJXQ8wP3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>es mas facil poner un video que el propio video directamente de youtube te ayudan mucho con eso</p>
+    <p>ya que en el apartado de compartir se encuentra una seccion para copiar el codigo y solo es copiar ese codigo en el apartado donde quieras que este </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21791.92856933349!2d-106.41859830017809!3d31.65825204822187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d77ebbe2311%3A0xe54a0551686a053e!2sBodega%20Aurrera%20-%20Jilotepec!5e0!3m2!1ses-419!2smx!4v1739220671772!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>al igual los mapas tienen esa misma funcion igual solo seleccionar una ubicacion tiene la opcion de incorporar </p>
+    </span>
+    <span id="imagenes"> 
+        <h1>imagenes</h1>
+    <img src="https://i.pinimg.com/736x/33/b6/c7/33b6c762c0054c99717210651131c373.jpg" alt="">
+    <p> para poner una imagen tienes que poner (img scr="") y dentro del las comillas del scr poner un link de una imagen </p>
+    <p> tambien tienes la opcion de una vez descargada la imagen img src="/(nombre de la carpeta donde tengas guardado la imagen) </p>
+    </span>
+    <span class="color">
+        <h1>color o estelizar ciertas cosas</h1>
+        <p>para esto al inicio del pograma solo hay que poner esto</p>
+        <p>"entre los mayores o menores" style y poner el nombre de la etiqueta que queramos estelizar con un punto antes y solo abrir y cerrar corchetes {} una vez hecho eso aqui estan los siguientes comandos
+        que vimos en clase</p>
+        <ol>
+            <li>width ancho</li>
+            <li>hight alto</li>
+            <li>background-color color del cuadro</li> 
+        </ol>
+    </span>
+    <img src="img/Diagrama (1).png">
+    <p style="color: rgb(219, 133, 27);"> pagina teams, cambiado al ultimo momento equipo dentro del trabajo</p>
+    <p style="color: rgb(219, 133, 27);"> persona con el que hice el trabajo : LUIS EDUARDO RANGEL SANCHEZ</p>
+    <h1 style="color: red;">br o el salto de linea, class en un texto, padings, borders, vimos tambien todo lo del generador "gradiant, </h1>
+    <span class="cuadrado">
+        <p >crea un salto de linea, este solo habre y cierra solo es br</p>
+        <p ><br>Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl ultricies dolor litora hac leo mollis sem fermentum. Urna aenean aliquam feugiat libero elementum himenaeos commodo. Etiam quam enim egestas semper elementum tristique ultricies. Hendrerit neque nostra malesuada dolor fermentum justo condimentum. Integer ligula aenean posuere convallis dui aptent suspendisse. Platea ullamcorper metus curabitur nam, proin risus ullamcorper urna.
+        <br><p >tambien podemos poner un class dentro de una p para solo cambiar el color del texto</p>
+        <p >centrar un div, podemos usar el display block, donde lo que hace es bloquear el margen a un solo sentido dentro de este y todas las pantallas.
+            <br>se adapta en todas las pantallas sin problemas
+        </p>
+        <p >los padings se utilizan como los margin para hacer una espaciado o un margen pero hacia adentro del div o de la pantalla</p>
+        <p >borders: un marco que le puedes poner al div, section, etc</p>
+    </span>
+    <div class="uno">
+
+    </div>
+    <div class="dos">
+    
+    </div>
+    <div class="tres">
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>
+    </div>
+    <span class="selectores"><h1>selectores de pseudo clase</h1>
+    <br><p> estos selectores permiten definir estilos segun un estado especifico del elemento</p>
+    <br><p>:hover = cuando el mouse esta sobre el elemento</p>
+    <br><p>:focus = cuando el elemento recibe un foco</p>
+    <br><p>:nth-child n = selecciona el enesimo hijo de su padre</p>
+    </span>
+    <span><h1> selectores de atributo </h1>
+        <br><p>permiten seleccionar elementos relacionados de distintas maneras</p>
+        <br><p>[type="text"] = inputs de texto</p>
+        <br><p>[href="https"]= enlaces que comienzan con https</p>
+        <br><p>[alt="foto"]=  imagenes cuyo atributo contenga la palabra foto</p>
+    </span>
+    <div id="slideshow">
+        <div class="slide-wrapper">
+            <div class="slide">
+                <h1 class="slide-number">1</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">2</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">3</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">4</h1>
+            </div>
+            <div class="slide">
+                <h1 class="slide-number">5</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
